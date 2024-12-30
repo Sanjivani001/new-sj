@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(1, 1, 65);
+}
+.MainHeading{
+    text-align: center;
+    color:white;
+}
+/*.Sdiv{
+    display:flex;
+}*/
+.demo{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    color: white;
+    padding: 20px;
+  margin: 20px;
+}
+.story1{
+    color: black;
+    border-radius: 0.5%;
+    border-color: solid,rgb(0, 0, 0);
+    background-image: url("cendrella.png");
+    background-repeat: none;
+    background-size: cover; /* Ensures the image covers the div area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-attachment: fixed; /* Keeps the background image fixed during scroll */
+}
+h5{
+    fount-size
+}
+.story2{
+    border-radius: 0.5%;
+    border-color: solid,white;
+    background-image: url("beauty\ and\ beast.png");
+    background-repeat: none;
+}
+p{
+    visibility: hidden; /* Make the paragraph invisible S*/
+    opacity: 0; /* Optionally, set opacity to 0 to make it fully transparent */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for opacity and visibility */
+}
+.demo:hover p{
+    visibility: visible; /* Make the paragraph visible */
+    opacity: 1; /* Make the paragraph fully opaque */
+}
+button{
+    background-color: transparent ;
+    border: none;
+    color:rgb(25, 73, 136);
+    margin-left:1150px;
+    margin-top:80px;
+    font-size: 15px;
+}
