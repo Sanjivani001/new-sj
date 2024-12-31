@@ -5,35 +5,44 @@ body{
     text-align: center;
     color:white;
 }
-/*.Sdiv{
-    display:flex;
-}*/
+
 .demo{
     background-color: rgb(0, 0, 0);
-    height: 250px;
+    height: 500px;
     color: white;
     padding: 20px;
   margin: 20px;
 }
 .story1{
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 0.5%;
     border-color: solid,rgb(0, 0, 0);
     background-image: url("cendrella.png");
     background-repeat: none;
     background-size: cover; /* Ensures the image covers the div area */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents image repetition */
-  background-attachment: fixed; /* Keeps the background image fixed during scroll */
 }
-h5{
-    fount-size
-}
+
 .story2{
     border-radius: 0.5%;
     border-color: solid,white;
     background-image: url("beauty\ and\ beast.png");
     background-repeat: none;
+    background-size: cover;
+}
+.story3{
+    border-radius: 0.5%;
+    border-color: solid,white;
+    background-image: url("tangled.png");
+    background-repeat: none;
+    background-size: cover;
+}
+.story4{
+    border-radius: 0.5%;
+    border-color: solid,white;
+    background-image: url("lion\ king.png");
+    background-repeat: none;
+    background-size: cover;
+    color:white;
 }
 p{
     visibility: hidden; /* Make the paragraph invisible S*/
@@ -41,6 +50,7 @@ p{
     transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for opacity and visibility */
 }
 .demo:hover p{
+    font-size: 20px;
     visibility: visible; /* Make the paragraph visible */
     opacity: 1; /* Make the paragraph fully opaque */
 }
@@ -51,4 +61,7 @@ button{
     margin-left:1150px;
     margin-top:80px;
     font-size: 15px;
+}
+h5{
+    font-size: 50px;
 }
